@@ -13,7 +13,7 @@
 		2F5803962992A0DF007392E5 /* Landmarks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F5803942992A0DF007392E5 /* Landmarks.xcdatamodeld */; };
 		2F5803BA2992A59B007392E5 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5803B92992A59B007392E5 /* CircleImage.swift */; };
 		2F5803BC2992A68E007392E5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5803BB2992A68E007392E5 /* MapView.swift */; };
-		2F5803BE2992AB3A007392E5 /* LandMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5803BD2992AB3A007392E5 /* LandMark.swift */; };
+		2F5803BE2992AB3A007392E5 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5803BD2992AB3A007392E5 /* Landmark.swift */; };
 		2F5803DB2992AC22007392E5 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F5803CE2992AC22007392E5 /* landmarkData.json */; };
 		2F5803DD2992AE1C007392E5 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5803DC2992AE1C007392E5 /* ModelData.swift */; };
 		2F5803E22992B10A007392E5 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5803E12992B10A007392E5 /* LandmarkRow.swift */; };
@@ -32,6 +32,8 @@
 		2F89434429D2FBED00F8C15F /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F89434029D2FBED00F8C15F /* HikeDetail.swift */; };
 		2F89434529D2FBED00F8C15F /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F89434129D2FBED00F8C15F /* HikeView.swift */; };
 		2F89434829D3018300F8C15F /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F89434729D3018300F8C15F /* CategoryHome.swift */; };
+		2F89434A29D306C300F8C15F /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F89434929D306C300F8C15F /* CategoryRow.swift */; };
+		2F89434C29D30B1200F8C15F /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F89434B29D30B1200F8C15F /* CategoryItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +64,7 @@
 		2F5803A62992A0DF007392E5 /* LandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F5803B92992A59B007392E5 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		2F5803BB2992A68E007392E5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		2F5803BD2992AB3A007392E5 /* LandMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMark.swift; sourceTree = "<group>"; };
+		2F5803BD2992AB3A007392E5 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		2F5803CE2992AC22007392E5 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		2F5803DC2992AE1C007392E5 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		2F5803E12992B10A007392E5 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
@@ -81,6 +83,8 @@
 		2F89434029D2FBED00F8C15F /* HikeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 		2F89434129D2FBED00F8C15F /* HikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
 		2F89434729D3018300F8C15F /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
+		2F89434929D306C300F8C15F /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		2F89434B29D30B1200F8C15F /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,7 +161,7 @@
 		2F5803DF2992B064007392E5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				2F5803BD2992AB3A007392E5 /* LandMark.swift */,
+				2F5803BD2992AB3A007392E5 /* Landmark.swift */,
 				2F5803DC2992AE1C007392E5 /* ModelData.swift */,
 				2F89433029D2F5E400F8C15F /* Hike.swift */,
 			);
@@ -219,6 +223,8 @@
 			isa = PBXGroup;
 			children = (
 				2F89434729D3018300F8C15F /* CategoryHome.swift */,
+				2F89434929D306C300F8C15F /* CategoryRow.swift */,
+				2F89434B29D30B1200F8C15F /* CategoryItem.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -360,14 +366,16 @@
 				2F5803BA2992A59B007392E5 /* CircleImage.swift in Sources */,
 				2F89434829D3018300F8C15F /* CategoryHome.swift in Sources */,
 				2F89434329D2FBED00F8C15F /* HikeGraph.swift in Sources */,
+				2F89434A29D306C300F8C15F /* CategoryRow.swift in Sources */,
 				2F5803BC2992A68E007392E5 /* MapView.swift in Sources */,
 				2F58038A2992A0DD007392E5 /* LandmarksApp.swift in Sources */,
 				2F5803E42992B3A8007392E5 /* LandmarkList.swift in Sources */,
+				2F89434C29D30B1200F8C15F /* CategoryItem.swift in Sources */,
 				2F5803962992A0DF007392E5 /* Landmarks.xcdatamodeld in Sources */,
 				2F89432829D2EA2800F8C15F /* BadgeSymbol.swift in Sources */,
 				2F89432A29D2ED9200F8C15F /* RotatedBadgeSymbol.swift in Sources */,
 				2F89432C29D2EE2D00F8C15F /* Badge.swift in Sources */,
-				2F5803BE2992AB3A007392E5 /* LandMark.swift in Sources */,
+				2F5803BE2992AB3A007392E5 /* Landmark.swift in Sources */,
 				2F89432629D2E49000F8C15F /* BadgeBackground.swift in Sources */,
 				2F5803E22992B10A007392E5 /* LandmarkRow.swift in Sources */,
 				2F89434229D2FBED00F8C15F /* GraphCapsule.swift in Sources */,
